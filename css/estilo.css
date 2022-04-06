@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+body {
+    background-color: #b2dafa;
+    background-image: url("image/fondo.png");
+}
+
+.content-roulet{
+    width: 100%;
+    min-width: 540px;
+}
+
+
+.vara {
+    height: 0px;
+    width: 0px;
+    box-sizing: border-box;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-top: 100px solid #02befd;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    position: relative;
+    top: 80px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    z-index: 100;
+    transition: all 5s
+}
+
+#premio {
+    color: white;
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding: 20px;
+}
+
+#giros {
+    position: absolute;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.img-fluid{
+    height: 540px;
+}
+
